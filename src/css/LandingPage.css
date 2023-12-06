@@ -1,0 +1,13 @@
+img {
+  width: 800px; 
+  border-radius: 20px;
+  margin-top: 50px;
+  filter: brightness(0.7); 
+  transition: filter 0.3s ease, transform 0.3s ease; 
+}
+
+img:hover {
+  filter: brightness(1); 
+  transform: scale(1.1); 
+}
+
